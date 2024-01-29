@@ -2,7 +2,7 @@
 authors = ["willclarktech <willclarktech@users.noreply.github.com>"]
 description = "Template for Python projects"
 name = "python_template"
-packages = [{include = "python_template"}]
+packages = [{ include = "python_template" }]
 readme = "README.md"
 version = "0.0.0"
 
@@ -10,10 +10,10 @@ version = "0.0.0"
 python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
-black = "^22.12.0"
+black = "^24.1.1"
 jupyter = "^1.0.0"
-mypy = "^0.991"
-pylint = "^2.15.9"
+mypy = "^1.8.0"
+pylint = "^3.0.3"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
